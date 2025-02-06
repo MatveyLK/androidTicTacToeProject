@@ -3,4 +3,12 @@
     <string name="name_hint_ru">Имя</string>
     <string name="name_hint_en">Name</string>
     <string name="name_hint_he">שם</string>
+
+    <string name="password_hint_ru">Пароль</string>
+    <string name="password_hint_en">Password</string>
+    <string name="password_hint_he">סיסמה</string>
+
+    <string name="password_hint_ru">Пароль</string>
+    <string name="password_hint_en">Password</string>
+    <string name="password_hint_he">סיסמה</string>
 </resources>

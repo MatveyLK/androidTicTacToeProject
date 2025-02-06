@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -14,8 +15,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private SharedPreferences spLang;
     private SharedPreferences.Editor langEditor;
     private String lang;
-    private TextView tvLangRu, tvLangEn, tvLangHe;
+    private TextView tvLangRu, tvLangEn, tvLangHe, tvRegInvite;
     private EditText etName, etPassword;
+    private Button btnLog, btnReg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,8 +52,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     public void updateLanguage()
     {
-        Log.d("MY_TAG", "hi");
         lang = spLang.getString("language", "en");
-        etName.setHint(getString(R.string.name_hint_en));
+        etName.setHint(getResources().getIdentifier("name_hint_" + lang, "string", getPackageName()));
+        etPassword.setHint(getResources().getIdentifier("password_hint_" + lang, "string", getPackageName()));
     }
 }
