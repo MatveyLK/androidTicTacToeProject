@@ -8,7 +8,7 @@
     <string name="password_hint_en">Password</string>
     <string name="password_hint_he">סיסמה</string>
 
-    <string name="password_hint_ru">Пароль</string>
-    <string name="password_hint_en">Password</string>
-    <string name="password_hint_he">סיסמה</string>
+    <string name="reg_invite_ru">Пароль</string>
+    <string name="reg_invite_en">Password</string>
+    <string name="reg_invite_he">סיסמה</string>
 </resources>

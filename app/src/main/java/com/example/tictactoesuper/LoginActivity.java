@@ -30,6 +30,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         tvLangRu.setOnClickListener(this);
         tvLangHe.setOnClickListener(this);
 
+        tvRegInvite = findViewById(R.id.tv_reg_invite);
+
         etName = findViewById(R.id.et_name);
         etPassword = findViewById(R.id.et_password);
 
@@ -55,5 +57,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         lang = spLang.getString("language", "en");
         etName.setHint(getResources().getIdentifier("name_hint_" + lang, "string", getPackageName()));
         etPassword.setHint(getResources().getIdentifier("password_hint_" + lang, "string", getPackageName()));
+        tvRegInvite.setText(getResources().getIdentifier("reg_invite_" + lang, "string", getPackageName()));
     }
 }
