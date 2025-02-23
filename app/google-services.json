@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "691899593296",
+    "firebase_url": "https://schoolprojectmatveylk-default-rtdb.firebaseio.com",
+    "project_id": "schoolprojectmatveylk",
+    "storage_bucket": "schoolprojectmatveylk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691899593296:android:d94d266b778ae2570e1755",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7G0MXh30yNzMzn2jkb4z1UwJJHHa6puE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691899593296:android:5f711ef704ad1fb10e1755",
+        "android_client_info": {
+          "package_name": "com.example.tictactoesuper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7G0MXh30yNzMzn2jkb4z1UwJJHHa6puE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

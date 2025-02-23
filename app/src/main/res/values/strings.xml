@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TicTacToeSuper</string>
+    <string name="name_hint">Name</string>
+    <string name="password_hint">Password</string>
+    <string name="login_btn" translatable="false">Login</string>
+    <string name="register_btn" translatable="false">Register</string>
+    <string name="reg_msg" translatable="false">Dont have an account? Create one now!</string>
+    <string name="email_hint" translatable="false">Email</string>
+    <string name="password_rep_hint" translatable="false">Password again</string>
+    <string name="log_back_btn" translatable="false">Return to Login</string>
+</resources>

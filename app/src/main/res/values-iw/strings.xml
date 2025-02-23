@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TicTacToeSuper</string>
+    <string name="name_hint">שם</string>
+    <string name="password_hint">סיסמה</string>
+</resources>
